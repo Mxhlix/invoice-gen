@@ -1,0 +1,13 @@
+{
+  "name": "invoice-gen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Apps Script that builds qualified invoices (PDF) from a spreadsheet, tested in Node with mocked GAS globals",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
